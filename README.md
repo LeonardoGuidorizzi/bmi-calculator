@@ -1,5 +1,6 @@
 ﻿# BMI-CALCULATOR
-## Objetive: Create a bmi calculator
+ ________________________________________________
+Objetive: Create a bmi calculator
 * Used technologies :
 * JS
 * Html
