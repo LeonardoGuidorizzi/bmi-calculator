@@ -6,6 +6,6 @@ Objetive: Create a bmi calculator
 * Html
 * Css
  ------------------------------------------------
- ![Alt text](image.png)
+ ![img](<Captura de tela 2023-09-30 132041.png>)
 
   
