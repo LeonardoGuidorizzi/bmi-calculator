@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <script src="./assets/js/main.js" defer=""></script>
+    <title>Document</title>
+  </head>
+  <body>
+    <section class="container">
+      <h1>Tabela IMC</h1>
+      <div class="info-container">
+        <div class=container-bmi-info">
+          <h2 class="title">IMC</h2>
+          
+            <div class="info-geral">
+              <div class="info">Menos do que 18,5 </div>
+              <div class="info">Entre 18,5 e 24,9</div>
+              <div class="info">Entre 25 e 29,9</div>
+              <div class="info">Entre 30 e 34,9</div>  
+              <div class="info">Entre 35 e 39,9</div>
+              <div class="info">Mais do que 40 </div>   
+            </div>
+            
+        </div>
+        <div class=" container-result-info">
+          <h2 class="title">Resultado</h2>
+
+          <div class="info-geral">
+            <div class="info">Abaixo do peso</div>
+            <div class="info">Peso normal</div>
+            <div class="info">Sobrepeso</div>
+            <div class="info">Obesidade grau 1</div>
+            <div class="info">Obesidade grau 2</div>  
+            <div class="info">Obesidade grau 3</div>   
+          </div>
+          
+        </div>
+      </div>
+
+      <form class="form" action="">
+        <label for="">Altura</label>
+        <input class="heightidentfier" type="text" id="height" />
+
+        <label for="">Peso</label>
+        <input class="weightidentfier" type="text" id="weight" />
+        <button>Resultado</button>
+      </form>
+        <div class="result-div" id="result">
+        </div>
+    </section>
+  </body>
+</html>
