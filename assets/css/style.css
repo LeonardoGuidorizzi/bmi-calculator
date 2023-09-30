@@ -69,9 +69,9 @@ form button:hover {
  
  .paragraph-result, bad-result{
   background-color:greenyellow;
-  height: 6vh;
-  width: 100%;
+  padding: 10px 20px;
  } 
  .bad-result{
   background-color: rgb(214, 113, 113);
  }
+ 
