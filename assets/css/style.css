@@ -74,4 +74,14 @@ form button:hover {
  .bad-result{
   background-color: rgb(214, 113, 113);
  }
- 
+
+ @media (max-width: 412px) {
+  .info-container{
+    gap: 0;
+    display: flex;
+    justify-content: space-around;
+  }
+  .info{
+    font-size: 19px;
+  }
+ }

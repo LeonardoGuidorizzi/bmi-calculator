@@ -21,7 +21,7 @@ form.addEventListener('submit', function(e){
 
   const bmi = (getBmi(height, weight))
   const message = resultMessage(bmi)
-  SetResult(`o seu imc é ${bmi}, ${message}`, true)
+  SetResult(`O seu imc é ${bmi}, ${message}`, true)
 })
 
 const getBmi = (height, weight) =>{
